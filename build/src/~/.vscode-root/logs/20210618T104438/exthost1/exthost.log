@@ -1,0 +1,39 @@
+[2021-06-18 10:44:40.813] [exthost] [info] extension host started
+[2021-06-18 10:44:40.856] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-06-18 10:44:40.856] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-06-18 10:44:40.870] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cpptools {"startup":false,"extensionId":{"value":"ms-vscode.cpptools","_lower":"ms-vscode.cpptools"},"activationEvent":"onLanguage:cpp"}
+[2021-06-18 10:44:40.871] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kist/.vscode/extensions/ms-vscode.cpptools-1.4.1/dist/main
+[2021-06-18 10:44:40.958] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-06-18 10:44:40.958] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-06-18 10:44:40.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-18 10:44:40.962] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-06-18 10:44:41.389] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-06-18 10:44:41.389] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-06-18 10:44:41.448] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.cmake-tools {"startup":true,"extensionId":{"value":"ms-vscode.cmake-tools","_lower":"ms-vscode.cmake-tools"},"activationEvent":"workspaceContains:**/CMakeLists.txt"}
+[2021-06-18 10:44:41.448] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kist/.vscode/extensions/ms-vscode.cmake-tools-1.7.3/dist/main
+[2021-06-18 10:44:41.532] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-06-18 10:44:41.532] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-06-18 10:44:41.854] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-06-18 10:44:41.854] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-06-18 10:44:41.989] [exthost] [info] eager extensions activated
+[2021-06-18 10:44:42.009] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-06-18 10:44:42.009] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-06-18 10:44:42.024] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-06-18 10:44:42.024] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-06-18 10:44:42.029] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-06-18 10:44:42.029] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-06-18 10:47:31.720] [exthost] [info] ExtensionService#_doActivateExtension twxs.cmake {"startup":false,"extensionId":{"value":"twxs.cmake","_lower":"twxs.cmake"},"activationEvent":"onLanguage:cmake"}
+[2021-06-18 10:47:31.720] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/kist/.vscode/extensions/twxs.cmake-0.0.17/out/extension
+[2021-06-18 13:44:15.379] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:44:24.607] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:44:31.247] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:45:25.984] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:45:25.989] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:46:26.574] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:46:29.504] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:47:16.794] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:47:16.794] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:47:18.487] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 13:47:18.487] [exthost] [warning] ms-vscode.cpptools - Code actions of kind 'quickfix 'requested but returned code action does not have a 'kind'. Code action will be dropped. Please set 'CodeAction.kind'.
+[2021-06-18 14:21:53.345] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-06-18 14:21:54.358] [exthost] [info] exiting with code 0

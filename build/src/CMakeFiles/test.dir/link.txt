@@ -1,0 +1,1 @@
+g++  -m64  -static -Wl,--gc-sections -rdynamic CMakeFiles/test.dir/Controller.cpp.o CMakeFiles/test.dir/Communication.cpp.o  -o test -lpthread 

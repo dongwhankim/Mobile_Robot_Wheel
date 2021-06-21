@@ -1,0 +1,7 @@
+[2021-06-18 10:36:19.462] [main] [error] [uncaught exception in main]: Unable to retrieve mac address (unexpected format)
+[2021-06-18 10:36:19.712] [main] [info] update#setState idle
+[2021-06-18 10:36:49.713] [main] [info] update#setState checking for updates
+[2021-06-18 10:36:49.719] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-18 10:36:49.719] [main] [info] update#setState idle

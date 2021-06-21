@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Communication.h
+
+/home/kist/wheel/src/Communication.cpp
+stdio.h
+-
+string.h
+-
+iostream
+-
+cmath
+-
+stdlib.h
+-
+fcntl.h
+-
+errno.h
+-
+termios.h
+-
+unistd.h
+-
+Communication.h
+-
+sys/select.h
+-
+
+/home/kist/wheel/src/Controller.cpp
+Communication.h
+/home/kist/wheel/src/Communication.h
+pthread.h
+-
+iostream
+-
+

@@ -1,0 +1,14 @@
+다음에서 git을 찾는 중: git
+git에서 git 2.17.1을(를) 사용하는 중
+> git rev-parse --git-dir
+Open repository: /home/kist/Mobile_Robot-main
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/rasp refs/remotes/rasp
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :kist/src/test_thread.cpp
+> git ls-files --stage -- /home/kist/Mobile_Robot-main/kist/src/test_thread.cpp
+> git cat-file -s 2a745cfadeeb94fe221c1e447fa0913b010bde4f
+> git check-ignore -v -z --stdin

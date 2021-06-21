@@ -1,0 +1,31 @@
+[2021-06-21 09:38:39.433] [main] [info] update#setState idle
+[2021-06-21 09:39:09.441] [main] [info] update#setState checking for updates
+[2021-06-21 09:39:09.444] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 09:39:09.444] [main] [info] update#setState idle
+[2021-06-21 10:39:09.517] [main] [info] update#setState checking for updates
+[2021-06-21 10:39:09.525] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 10:39:09.525] [main] [info] update#setState idle
+[2021-06-21 11:39:09.570] [main] [info] update#setState checking for updates
+[2021-06-21 11:39:09.578] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 11:39:09.578] [main] [info] update#setState idle
+[2021-06-21 12:39:09.669] [main] [info] update#setState checking for updates
+[2021-06-21 12:39:09.676] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 12:39:09.677] [main] [info] update#setState idle
+[2021-06-21 13:39:09.701] [main] [info] update#setState checking for updates
+[2021-06-21 13:39:09.708] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 13:39:09.708] [main] [info] update#setState idle
+[2021-06-21 14:39:09.781] [main] [info] update#setState checking for updates
+[2021-06-21 14:39:09.787] [main] [error] Error: net::ERR_INTERNET_DISCONNECTED
+    at SimpleURLLoaderWrapper.<anonymous> (electron/js2c/browser_init.js:109:7029)
+    at SimpleURLLoaderWrapper.emit (events.js:315:20)
+[2021-06-21 14:39:09.788] [main] [info] update#setState idle
