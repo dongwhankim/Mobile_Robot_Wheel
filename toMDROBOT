@@ -1,0 +1,31 @@
+  typedef unsigned char 	BYTE;
+  typedef struct 
+  {
+	  BYTE byLow;
+	  BYTE byHigh;
+  } IByte;
+
+  IByte iData, iData2;
+  int ret;
+
+  IByte Int2Byte(int nIn)
+  {
+	  IByte Ret;
+    Ret.byLow = nIn & 0xff;
+	  Ret.byHigh = nIn>>8 & 0xff;
+	  return Ret;
+  }
+  iData = Int2Byte(14);
+  iData2 = Int2Byte(14);
+  _vellocity[0] = 183;
+  _vellocity[1] = 184;
+  _vellocity[2] = 1;
+  _vellocity[3] = 207;
+  _vellocity[4] = 7;
+  _vellocity[5] = 1;  
+  _vellocity[6] = iData.byLow;
+  _vellocity[7] = iData.byHigh;
+  _vellocity[8] = 0;
+  _vellocity[9] = iData2.byLow;
+  _vellocity[10] = iData2.byHigh;
+  _vellocity[11] = 2;
