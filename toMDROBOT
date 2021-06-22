@@ -4,10 +4,6 @@
 	  BYTE byLow;
 	  BYTE byHigh;
   } IByte;
-
-  IByte iData, iData2;
-  int ret;
-
   IByte Int2Byte(int nIn)
   {
 	  IByte Ret;
@@ -15,6 +11,9 @@
 	  Ret.byHigh = nIn>>8 & 0xff;
 	  return Ret;
   }
+  
+  IByte iData, iData2;
+  unsigned char _vellocity[13];
   iData = Int2Byte(14);
   iData2 = Int2Byte(14);
   _vellocity[0] = 183;
