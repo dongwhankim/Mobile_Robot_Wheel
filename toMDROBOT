@@ -11,7 +11,16 @@
 	  Ret.byHigh = nIn>>8 & 0xff;
 	  return Ret;
   }
-  
+  unsigned char GetCheckSum(char nPacketSize, unsigned char *byArray)
+{
+    char byTmp=0;
+    char i;
+    for(i=0; i<nPacketSize; i++) 
+    {   
+        byTmp += *(byArray+i);
+    }
+    return (~byTmp + 1); 
+}
   IByte iData, iData2;
   unsigned char _vellocity[13];
   iData = Int2Byte(14);
@@ -28,3 +37,5 @@
   _vellocity[9] = iData2.byLow;
   _vellocity[10] = iData2.byHigh;
   _vellocity[11] = 2;
+  _vellocity[12] = GetCheckSum(sizeof(_vellocity)-1,_vellocity);
+
